@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tetranco;
+package controller;
 
 /**
  *
  * @author Osvaldo
  */
-public class Tabuleiro {
-    
-    public Tabuleiro() {
-    }    
-    
+public class Tetranco {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Controller.getInstance();
+    }
 }
